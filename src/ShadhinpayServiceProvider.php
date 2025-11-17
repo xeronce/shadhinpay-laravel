@@ -11,6 +11,9 @@ class ShadhinpayServiceProvider extends ServiceProvider
         // Load routes
         $this->loadRoutesFrom(__DIR__.'/Http/routes/web.php');
 
+        // Load views
+        $this->loadViewsFrom(__DIR__.'/resources/views', 'shadhinpay');
+
         // Publish config
         $this->publishes([
             __DIR__.'/config/shadhinpay.php' => config_path('shadhinpay.php'),
