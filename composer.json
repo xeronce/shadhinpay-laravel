@@ -1,0 +1,31 @@
+{
+    "name": "xeronce/shadhinpay",
+    "description": "Shadhinpay payment package for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tazim Hossain",
+            "email": "tazim@xeronce.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xeronce\\Shadhinpay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xeronce\\Shadhinpay\\ShadhinpayServiceProvider"
+            ],
+            "aliases": {
+                "Shadhinpay": "Xeronce\\Shadhinpay\\Facades\\Shadhinpay"
+            }
+        }
+    }
+}
