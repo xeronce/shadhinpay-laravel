@@ -9,7 +9,7 @@ class ShadhinpayServiceProvider extends ServiceProvider
     public function boot()
     {
         // Load routes
-        $this->loadRoutesFrom(__DIR__.'/Http/routes.php');
+        $this->loadRoutesFrom(__DIR__.'/Http/routes/routes.php');
 
         // Publish config
         $this->publishes([

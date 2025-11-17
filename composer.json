@@ -1,6 +1,6 @@
 {
     "name": "xeronce/shadhinpay",
-    "description": "Shadhinpay payment package for Laravel",
+    "description": "Receive Payments with new era gateway tool",
     "type": "library",
     "license": "MIT",
     "authors": [
